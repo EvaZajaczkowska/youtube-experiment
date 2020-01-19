@@ -1,0 +1,76 @@
+.App {
+  margin: 30px auto;
+  width: 1200px;
+  text-align: center;
+}
+
+header,
+main,
+footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  background-color: #282c34;
+  min-height: 10vh;
+  color: white;
+}
+
+main {
+  min-height: 80vh;
+}
+
+footer {
+  min-height: 10vh;
+  background-color: #282c34;
+  color: white;
+}
+
+.videoDetail {
+  background: lightgrey;
+  margin-right: 400px;
+}
+
+.search {
+  background: pink;
+}
+
+.videoList {
+  width: 400px;
+  float: right;
+  background: grey;
+}
+
+.videoFrame {
+  width: 640px;
+  height: 480px;
+  background: lightgreen;
+  margin: 0px auto;
+}
+
+.videoFrame iframe {
+  border: 0;
+}
+
+.videoTitle {
+  font-weight: bold;
+}
+
+.videoDescription {
+  font-size: 0.7em;
+}
+
+.videoList ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.videoList ul li {
+  display: block;
+  clear: both;
+}
